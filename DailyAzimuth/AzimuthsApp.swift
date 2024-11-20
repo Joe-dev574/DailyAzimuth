@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct DailyAzimuthApp: App {
+struct AzimuthsApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
